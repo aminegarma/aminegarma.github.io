@@ -2,10 +2,16 @@ const PROJECTS = [
   {
     "id": "cloud4saya",
     "name": "Cloud4Saya",
-    "sub": "Residential management, with a smarter layer.",
+    "sub": "A residential platform, from private cloud to AI-assisted services.",
     "type": "Full-stack",
     "year": "2026",
     "tags": [
+      "OpenStack",
+      "Kubernetes",
+      "Ansible",
+      "Heat",
+      "Prometheus",
+      "Grafana",
       "Angular",
       "Spring Boot",
       "MongoDB",
@@ -13,23 +19,41 @@ const PROJECTS = [
     ],
     "tone": "sage",
     "glyph": "▦",
-    "summary": "A team-built platform bringing residences, buildings, apartments and parking into one connected management experience.",
-    "detail": "Cloud4Saya connects an Angular frontend to a layered Spring Boot REST API. Its property workflows manage the relationships between residences, buildings, apartments and parking spaces, with validation and structured data access.",
+    "summary": "A seven-person project combining an OpenStack private cloud, Kubernetes deployment and a residential-management platform with AI-assisted property features.",
+    "detail": "Cloud4Saya brings infrastructure and application development together. Our seven-person team built a private cloud with one controller, four compute nodes and two storage nodes, using KVM and OpenStack. A Kubernetes cluster on that infrastructure hosted the Spring Boot REST API and Angular application. The residential platform includes property management alongside user and organisation administration, maintenance, incidents and alerts, finance, community events and solar-energy modules.",
     "features": [
       "Residence, building, apartment and parking management",
-      "Connected Angular interfaces and REST APIs",
-      "Image analysis for floor and apartment counts",
+      "User authentication, user management and organisation administration",
+      "Maintenance management, incident reporting and alerts",
+      "Financial management, risk scoring and overdue detection",
+      "Community events, registration and feedback",
+      "Solar-energy management and gamification modules",
+      "Connected Angular interfaces and Spring Boot REST APIs",
+      "Residence-photo analysis to estimate floor and apartment counts",
       "Apartment-price prediction using location, area and other property features"
     ],
     "personal": "I implemented the image-analysis and apartment-price prediction features in my part of the project.",
     "flow": [
-      "Residence photo / property details",
-      "AI-assisted analysis",
-      "Property management workspace"
+      "OpenStack + KVM",
+      "Kubernetes",
+      "Spring Boot API + Angular SPA"
     ],
     "repo": null,
-    "credit": "Academic team project",
-    "note": "The frontend, backend and AI-assisted property workflows form one connected project."
+    "credit": "ESPRIT · seven-person academic team",
+    "note": "One connected project covering private-cloud infrastructure, automation, monitoring and the residential application. The two property AI features were my individual implementation.",
+    "infrastructure": [
+      "Keystone — identity and access management",
+      "Nova + KVM — virtual-machine compute and virtualisation",
+      "Neutron — virtual networks and security rules",
+      "Cinder — persistent block-storage volumes",
+      "Swift — object storage",
+      "Heat — declarative stacks for VMs, networks, volumes and security rules",
+      "Ansible — automated configuration of nodes and services",
+      "Kubernetes — container orchestration for the Spring Boot API and Angular SPA, with dedicated networks and service ports",
+      "Prometheus — distributed metrics collection",
+      "Grafana — real-time monitoring dashboards",
+      "Alertmanager — alert routing and notifications"
+    ]
   },
   {
     "id": "jira",
