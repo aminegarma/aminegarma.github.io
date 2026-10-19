@@ -211,5 +211,37 @@ const PROJECTS = [
     "repo": null,
     "credit": "Collaborative academic project",
     "note": "Built collaboratively as an early academic web project."
+  },
+  {
+    "id": "jibli",
+    "name": "Jibli",
+    "sub": "A food-delivery mobile app with connected account roles.",
+    "type": "Mobile",
+    "year": "Academic",
+    "tags": [
+      "FlutterFlow",
+      "Authentication",
+      "Role management",
+      "Navigation"
+    ],
+    "tone": "peach",
+    "glyph": "↔",
+    "summary": "A team-built food-delivery mobile app connecting client, delivery-person, admin and super-admin experiences.",
+    "detail": "Jibli is a food-delivery mobile application built with FlutterFlow. The project brings together clients, delivery personnel, administrators and a super-admin role, with account authentication and navigation linking the application pages.",
+    "features": [
+      "Client and delivery-person account roles",
+      "Administration and super-admin sections",
+      "Account authentication flows",
+      "Routing and navigation between application pages"
+    ],
+    "personal": "I contributed to the administration and super-admin sections, account authentication, and the routing and links between pages across the app.",
+    "flow": [
+      "Account authentication",
+      "Client / delivery / admin / super-admin",
+      "Connected app pages"
+    ],
+    "repo": null,
+    "credit": "Collaborative academic project",
+    "note": "Built with FlutterFlow. Project overview; a public demo is not linked yet."
   }
 ];
